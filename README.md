@@ -18,6 +18,7 @@
 
 ## Database Table
 <img src="https://github.com/user-attachments/assets/5506d1cf-3134-40e2-92f7-fed7806524dc"/>
+<h1 align="left"> </h1>
 
 <h1 align="center">🔶 18.2 CRUD Operation in Budget Tracker App 🔶</h1>
 
