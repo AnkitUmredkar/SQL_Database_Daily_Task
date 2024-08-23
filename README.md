@@ -1,4 +1,4 @@
-# sqflite package
+ # sqflite package
 
 - The sqflite package is a Flutter plugin for performing SQLite database operations within apps. It enables local data storage on the device, making it ideal for apps that need to manage structured data like user preferences or lists. SQLite is lightweight and disk-based, requiring no separate server process, and allows data access using SQL queries.
 
@@ -25,13 +25,13 @@
 
 - This Flutter application implements a CRUD (Create, Read, Update, Delete) functionality for managing Budget's Expense and Income using the GetX state management package and SQL Database.
 
-1. **Create**: Add new Record like category and amount using addRecord method which is stored in Controller. This Details Add to a dataList and it is managed by a GetX controller..
+1. **Create** : Add new Record like category and amount using addRecord method which is stored in Controller. This Details Add to a dataList and it is managed by a GetX controller..
 
-2. **Read**: Display the list of expense or income by observing the dataList list with `Obx` or `GetBuilder` in the UI. The list is stored in the Controller class.
+2. **Read** : Display the list of expense or income by observing the dataList list with `Obx` or `GetBuilder` in the UI. The list is stored in the Controller class.
 
-3. **Update**: Modify an Budget's details by tap on budget item.it will be open dialog box where you can updaterecord
+3. **Update** : Modify an Budget's details by tap on budget item.it will be open dialog box where you can updaterecord
 
-4. **Delete**: Remove an budget record from dataList through a deleteRecord method which is store in Controller.
+4. **Delete** : Remove an budget record from dataList through a deleteRecord method which is store in Controller.
 
 ### Tech Stack :
 - **get** : This package use for efficient state management
