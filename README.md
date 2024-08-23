@@ -19,7 +19,21 @@
 ## Database Table
 <img src="https://github.com/user-attachments/assets/5506d1cf-3134-40e2-92f7-fed7806524dc"/>
 
-<h1 align="left"> </h1>
+<h1 align="center">🔶 18.2 CRUD Operation in Budget Tracker App 🔶</h1>
+
+- This Flutter application implements a CRUD (Create, Read, Update, Delete) functionality for managing Budget's Expense and Income using the GetX state management package and SQL Database.
+
+1. **Create**: Add new Record like category and amount using addRecord method which is stored in Controller. This Details Add to a dataList and it is managed by a GetX controller..
+
+2. **Read**: Display the list of expense or income by observing the dataList list with `Obx` or `GetBuilder` in the UI. The list is stored in the Controller class.
+
+3. **Update**: Modify an Budget's details by tap on budget item.it will be open dialog box where you can updaterecord
+
+4. **Delete**: Remove an budget record from dataList through a deleteRecord method which is store in Controller.
+
+### Tech Stack :
+- **get** : This package use for efficient state management
+- **sqflite** : This package use for store budget data in database
 
 <div align="center">
   <img height="550" align="left" src="https://github.com/user-attachments/assets/a298e717-13a8-4a3c-abed-5400f33e01c5"/>
