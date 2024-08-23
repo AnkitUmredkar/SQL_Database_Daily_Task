@@ -33,7 +33,7 @@
 
 4. **Delete** : Remove an budget record from dataList through a deleteRecord method which is store in Controller.
 
-### Tech Stack :
+### Tech Stack
 - **get** : This package use for efficient state management
 - **sqflite** : This package use for store budget data in database
 
