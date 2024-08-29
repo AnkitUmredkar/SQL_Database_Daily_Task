@@ -22,25 +22,33 @@ class DbHelper {
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         amount REAL NOT NULL,
         isIncome INTEGER NOT NULL,
-        category TEXT)''';
+        category TEXT,
+        img TEXT )''';
         await db.execute(sql);
       },
     );
     return _db;
   }
 
-  Future insertData(amount, isIncome, category)async{
+  Future insertData(amount, isIncome, category, img)async{
     Database? db = await database;
-    String sql = '''INSERT INTO finance(amount, isIncome, category) 
-    VALUES(?, ?, ?)''';
-    List args = [amount,isIncome,category];
+    String sql = '''INSERT INTO finance(amount, isIncome, category, img) 
+    VALUES(?, ?, ?, ?)''';
+    List args = [amount,isIncome,category,img];
     await db!.rawInsert(sql, args);
   }
 
-  Future<List<Map<String, Object?>>> readData() async {
+  Future<List<Map<String, Object?>>> viewAllData() async {
     Database? db = await database;
     String sql = '''SELECT * FROM finance''';
     return await db!.rawQuery(sql);
+  }
+
+  Future<List<Map<String, Object?>>> getSelectedData(int isIncome) async {
+    Database? db = await database;
+    String sql = '''SELECT * FROM finance WHERE isIncome = ?''';
+    List args = [isIncome];
+    return await db!.rawQuery(sql,args);
   }
 
   Future<void> deleteData(int id) async {
@@ -50,12 +58,12 @@ class DbHelper {
     await db!.rawDelete(sql,args);
   }
 
-  Future<void> updateData(amount, isIncome, category, id) async {
+  Future<void> updateData(amount, isIncome, category, img, id) async {
     Database? db = await database;
     String sql = '''UPDATE finance 
-                  SET amount = ?, isIncome = ?, category = ? 
+                  SET amount = ?, isIncome = ?, category = ?, img = ?
                   WHERE id = ?''';
-    List args = [amount, isIncome, category, id];
+    List args = [amount, isIncome, category, img, id];
     await db!.rawDelete(sql,args);
   }
 
