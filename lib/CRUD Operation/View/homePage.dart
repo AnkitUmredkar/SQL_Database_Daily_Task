@@ -252,6 +252,8 @@ class HomePage extends StatelessWidget {
                         fontWeight: FontWeight.bold, color: Colors.white,fontSize: width * 0.041),
                   ),
                   Expanded(
+
+
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(8, 10, 8, 6),
                       child: ListView.builder(
