@@ -37,6 +37,10 @@
 - Visualize your budget with percentage breakdowns.
 - Instantly see how much you've spent or saved.
 
+✨ User-Friendly Interface
+Intuitive and clean design that makes navigation a breeze.
+Effortlessly explore quotes with just a few taps.
+
 ## 🔄 Separate Income & Expense View
 - View all your income and expenses separately.
 - Analyze your financial data with clarity.
