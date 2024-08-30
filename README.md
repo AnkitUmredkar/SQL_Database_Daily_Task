@@ -23,7 +23,7 @@
 
 <h1 align="center">🔶 Budget Tracker App 🔶</h1>
 
-### Description :
+### Description 
 
 ## 💰 Add Record 
 - Easily add income and expense records.
