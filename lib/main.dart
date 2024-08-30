@@ -1,4 +1,5 @@
 import 'package:budget_tracker_daily_task/CRUD%20Operation/View/homePage.dart';
+import 'package:budget_tracker_daily_task/CRUD%20Operation/View/splashScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
@@ -12,9 +13,9 @@ class MyApp extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),
+      home: SplashScreen(),
     );
   }
 }

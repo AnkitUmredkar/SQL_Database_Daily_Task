@@ -106,7 +106,7 @@ class HomePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 15),
+                    padding: const EdgeInsets.symmetric(vertical: 13),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -203,6 +203,7 @@ class HomePage extends StatelessWidget {
                                     100
                                 : 0.0,
                             color: Colors.green.shade600,
+                              width: width
                           ),
                         ),
                         GestureDetector(
@@ -221,6 +222,7 @@ class HomePage extends StatelessWidget {
                                     100
                                 : 0.0,
                             color: Colors.red.shade600,
+                              width: width
                           ),
                         ),
                         GestureDetector(
@@ -240,6 +242,7 @@ class HomePage extends StatelessWidget {
                                     .toDouble()
                                 : 0.0,
                             color: Colors.blue.shade600,
+                            width: width
                           ),
                         ),
                       ],
@@ -252,8 +255,6 @@ class HomePage extends StatelessWidget {
                         fontWeight: FontWeight.bold, color: Colors.white,fontSize: width * 0.041),
                   ),
                   Expanded(
-
-
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(8, 10, 8, 6),
                       child: ListView.builder(
@@ -686,6 +687,7 @@ Widget _buildOverviewItem({
   required String label,
   required double percentage,
   required Color color,
+  required double width
 }) {
   return Column(
     children: [
@@ -704,9 +706,9 @@ Widget _buildOverviewItem({
           ),
           Text(
             '${percentage.toStringAsFixed(1)}%',
-            style: const TextStyle(
+            style: TextStyle(
               fontWeight: FontWeight.bold,
-              fontSize: 16,
+              fontSize: width * 0.03,
               color: Colors.white,
             ),
           ),
