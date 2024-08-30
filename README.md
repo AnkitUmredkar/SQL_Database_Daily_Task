@@ -33,7 +33,7 @@
 - Modify or delete any record effortlessly.
 - Ensure your budget data is always accurate and up-to-date.
 
-  ## 📊 Overview in Percentage
+## 📊 Overview in Percentage
 - Visualize your budget with percentage breakdowns.
 - Instantly see how much you've spent or saved.
 
