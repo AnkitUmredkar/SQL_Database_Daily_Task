@@ -15,25 +15,28 @@ class SplashScreen extends StatelessWidget {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.height;
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: const Color(0xFF351A2B),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Lottie.asset(
-              'assets/lottie.json',
-              height: height * 0.28,
+            // Lottie.asset(
+            //   'assets/lottie.json',
+            //   height: height * 0.28,
+            // ),
+            Image.asset(
+              'assets/money.png',
+              height: height * 0.2,
             ),
-            const SizedBox(height: 6),
-            Padding(
-              padding: const EdgeInsets.all(12),
-              child: Text('Decoding your financial future',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                      fontSize: width * 0.029,
-                      fontWeight: FontWeight.bold,
-                      // color: Color(0xffB43B28),
-                      fontFamily: 'poppins')),
+            const SizedBox(height: 34),
+            Text(
+              'Decoding your financial\nfuture',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                  fontSize: width * 0.028,
+                  fontWeight: FontWeight.w500,
+                  color: Colors.white70,
+                  fontFamily: 'poppins'),
             ),
           ],
         ),

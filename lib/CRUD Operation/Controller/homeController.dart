@@ -15,6 +15,7 @@ class HomeController extends GetxController
   RxDouble totalIncome = 0.0.obs,totalExpense = 0.0.obs;
   Rx<File?> fileImage = Rx<File?>(null);
   Rx<XFile?> xFileImage = Rx<XFile?>(null);
+  RxInt currentIndex = 0.obs;
 
   TextEditingController txtAmount = TextEditingController();
   TextEditingController txtCategory = TextEditingController();
@@ -23,6 +24,10 @@ class HomeController extends GetxController
   void onInit(){
     super.onInit();
     initDb();
+  }
+
+  void changePageByIndex(newIndex){
+    currentIndex.value = newIndex;
   }
 
   void setIncome(String value)
