@@ -21,7 +21,63 @@
 
 <h1 align="left"> </h1>
 
-<h1 align="center">🔶 18.2 CRUD Operation in Budget Tracker App 🔶</h1>
+<h1 align="center">🔶 Budget Tracker App 🔶</h1>
+
+### Description 
+
+## 💰 Add Record 
+- Easily add income and expense records.
+- Keep track of your financial activities with just a few taps.
+
+## ✏️ Update Record
+- Modify or delete any record effortlessly.
+- Ensure your budget data is always accurate and up-to-date.
+
+## 📊 Overview in Percentage
+- Visualize your budget with percentage breakdowns.
+- Instantly see how much you've spent or saved.
+
+✨ User-Friendly Interface
+Intuitive and clean design that makes navigation a breeze.
+Effortlessly explore quotes with just a few taps.
+
+## 🔄 Separate Income & Expense View
+- View all your income and expenses separately.
+- Analyze your financial data with clarity.
+
+## 🔍 Combined Overview
+- See your total financial overview, combining income and expenses.
+- Get a complete picture of your financial health in one place.
+
+### Tech Stack
+- **get** : This package use for efficient state management
+- **sqflite** : This package use for store budget data in database
+
+<h1 align="left"> </h1>
+
+<div align="center">
+  <img height="550" align="left" src="https://github.com/user-attachments/assets/89f1a221-71be-4a8e-87ee-cc10f22d179a5"/>
+  <img height="550" src="https://github.com/user-attachments/assets/b3daa8d9-e782-4edb-8775-16a14dd3df41"/>
+  <img height="550"  align="right" src="https://github.com/user-attachments/assets/827fda64-0fea-442c-a22e-dfc83416983f"/>
+</div>
+
+<h1 align="left"> </h1>
+
+<div align="center">
+<img height="550" src="https://github.com/user-attachments/assets/c1efdd36-709e-4477-b5de-21909524a022"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img height="550" src="https://github.com/user-attachments/assets/0b0f3e53-da1b-4500-826c-75ed6baedfe5"/>
+</div>
+
+<h1 align="left"> </h1>
+
+<div align="center">
+<video height="550" src="https://github.com/user-attachments/assets/78295e18-6826-4283-8152-8d2ed3334d19"/>
+</div>
+
+<h1 align="left"> </h1>
+
+<h1 align="center">🔶 18.2 CRUD Operation 🔶</h1>
 
 - This Flutter application implements a CRUD (Create, Read, Update, Delete) functionality for managing Budget's Expense and Income using the GetX state management package and SQL Database.
 
@@ -32,10 +88,6 @@
 3. **Update** : Modify an Budget's details by tap on budget item.it will be open dialog box where you can updaterecord
 
 4. **Delete** : Remove an budget record from dataList through a deleteRecord method which is store in Controller.
-
-### Tech Stack
-- **get** : This package use for efficient state management
-- **sqflite** : This package use for store budget data in database
 
 <h1 align="left"> </h1>
 
@@ -58,5 +110,6 @@
 <div align="center">
 <video height="550" src="https://github.com/user-attachments/assets/aeb0cacc-1b46-4c8e-9b9c-7c42d54b0333"/>
 </div>
+
 
 
