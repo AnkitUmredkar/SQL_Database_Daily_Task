@@ -20,7 +20,6 @@
 <img src="https://github.com/user-attachments/assets/5506d1cf-3134-40e2-92f7-fed7806524dc"/>
 
 <h1 align="left"> </h1>
-
 <h1 align="center">🔶 Budget Tracker App 🔶</h1>
 
 ### Description 
@@ -51,28 +50,37 @@ Effortlessly explore quotes with just a few taps.
 
 ### Tech Stack
 - **get** : This package use for efficient state management
-- **sqflite** : This package use for store budget data in database
+- **sqflite** : This package use for store budget data in database!
+
 
 <h1 align="left"> </h1>
 
+
 <div align="center">
-  <img height="550" align="left" src="https://github.com/user-attachments/assets/89f1a221-71be-4a8e-87ee-cc10f22d179a5"/>
-  <img height="550" src="https://github.com/user-attachments/assets/b3daa8d9-e782-4edb-8775-16a14dd3df41"/>
+
+  <img height="550" align="left" src="https://github.com/user-attachments/assets/ca44ba91-3f92-4e7a-ad1f-12f42f9bcd9e"/>
+  <img height="550" src="https://github.com/user-attachments/assets/909498b2-cfb1-4a29-b1b1-9968c498b994"/>
   <img height="550"  align="right" src="https://github.com/user-attachments/assets/827fda64-0fea-442c-a22e-dfc83416983f"/>
 </div>
 
 <h1 align="left"> </h1>
 
 <div align="center">
-<img height="550" src="https://github.com/user-attachments/assets/c1efdd36-709e-4477-b5de-21909524a022"/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img height="550" align="left" src="https://github.com/user-attachments/assets/c1efdd36-709e-4477-b5de-21909524a022"/>
 <img height="550" src="https://github.com/user-attachments/assets/0b0f3e53-da1b-4500-826c-75ed6baedfe5"/>
+<img height="550" align="right" src="https://github.com/user-attachments/assets/c1efdd36-709e-4477-b5de-21909524a022"/>
 </div>
 
 <h1 align="left"> </h1>
 
 <div align="center">
-<video height="550" src="https://github.com/user-attachments/assets/78295e18-6826-4283-8152-8d2ed3334d19"/>
+<img height="550" src="https://github.com/user-attachments/assets/0f81d62a-4a91-46dc-99e0-9064253fe619"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img height="550" src="https://github.com/user-attachments/assets/f4cb4e0b-d345-41f5-980f-26b4da2572d8"/>
+</div>
+
+<div align="center">
+<video height="550" src="https://github.com/user-attachments/assets/6c2b38eb-02fe-47d7-8d3b-d3a6c3474093"/>
 </div>
 
 <h1 align="left"> </h1>
